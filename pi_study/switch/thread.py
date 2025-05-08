@@ -11,6 +11,15 @@ def fx2():
         print(f"fx2 - {i}")
         sleep(1)
 
+def fx3():
+    for i in range(10):
+        print(f"fx3 - {i}")
+        sleep(1)
+
+def fx4():
+    for i in range(10):
+        print(f"fx4 - {i}")
+        sleep(1)
 
 if __name__ == "__main__":
     thread1 = Thread(target=fx1, daemon=True)
