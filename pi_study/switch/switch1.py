@@ -12,7 +12,7 @@ try:
         if gpio.input(swPin) == gpio.HIGH:
             print("버튼을 눌렀습니다")
         else:
-             print("버튼을 누르지 않았습니다")
+            print("버튼을 누르지 않았습니다")
         sleep(1)
 except KeyboardInterrupt:
     pass
